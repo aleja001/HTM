@@ -1,0 +1,91 @@
+body{
+    background-color: rgb(35, 196, 236);
+    font-family: cursive;
+}
+header{
+    background-color: black !important;
+    border: 2px solid rgb(201, 157, 221) ;
+    border-radius: 20px;
+    /*configuracion de display flex*/
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: rgb(202, 133, 168);
+}
+
+header img{
+    padding: 20px;
+}
+nav{
+    background-color: rgb(113, 191, 243);
+    border: 2px cornsilk;
+    border-radius: 20px;
+}
+nav{
+      /*configuracion de display flex*/
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      color: rgb(202, 133, 168);
+      font: 25px sans-serif;
+}
+section{
+    width: 40%;
+    border:2px solid black;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 10px auto;
+    background: linear-gradient(rgb(230, 139, 210),rgb(99, 129, 211));
+}
+form{
+    background-color: rgb(206, 157, 182);
+    width: 70%;
+    border-radius: 20px;
+    margin: 10px auto;
+    box-shadow: outset 0 0 10px cornsilk;
+}
+fieldset{
+    border-style: none ;
+}
+label{
+    font-size: 18px;
+}
+textarea{
+    resize: both;
+    max-height: 100px;
+}
+/* pseudoclase focus: al dar clic al botón */
+input:focus, textarea:focus{
+    border-color: rgb(255, 251, 0);
+    cursor: pointer;
+    box-shadow: outset 0 0 10px rgb(230, 56, 221);
+    outline:0 none ;
+}
+form button{
+    width: 40%;
+    margin: 15px 20px;
+    height: 40px;
+    background: radial-gradient(rgb(31, 216, 248),rgb(224, 61, 216));
+    color: rgb(3, 3, 3);
+    border-radius: 15px;
+}
+form input{
+    height: 20px;
+    box-sizing: border-box;
+    color: black;
+    outline: none;
+}
+/* pseudoclase hover : al pasar mouse por encima control*/
+form button:hover{
+    background: rgb(221, 166, 221);
+    text-decoration: underline;
+    color: black;
+    cursor: pointer;
+}
+footer{
+    font-size: 16px;
+    text-align: center;
+    color: lightpink;
+}
